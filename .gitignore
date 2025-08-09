@@ -1,0 +1,74 @@
+# --- OS & Editors ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.orig
+.idea/
+.vscode/
+.history/
+*.code-workspace
+
+# --- Env files (keep the examples) ---
+.env
+.env.*
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# --- Python / Flask backend ---
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/coverage.xml
+backend/*.egg-info/
+backend/build/
+backend/dist/
+backend/instance/
+backend/*.db
+backend/*.sqlite3
+backend/venv/
+
+# Parsed data & uploaded snapshots (keep profile.json only)
+backend/parsed/data.json
+backend/parsed/snapshots/
+backend/parsed/*.pdf
+!backend/parsed/profile.json
+
+# --- Node / React frontend ---
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+frontend/*.tsbuildinfo
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.pnpm-store/
+
+# --- Logs (anywhere) ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# --- Misc temp ---
+tmp/
+temp/
+.tmp/
+.sass-cache/
+.cache/

@@ -1,0 +1,20 @@
+{
+  "name": "Architha Julakanti",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/architha-julakanti-77b409291",
+    "github": "https://github.com/archithareddy21"
+  },
+  "summary": "Software developer focused on building reliable, data-driven web apps and automations with Python, React/JavaScript, AWS (Lambda, S3), and MySQL. Recent work for an Amazon client includes fleet-monitoring automation, CI/CD pipelines, and production support. Previously at TCS, delivered Python/Django services and integrations across the SDLC, modernized legacy systems, and improved code quality with Git/Jira. Projects include real-time suspicious-activity detection (CNN) and an AI customer-support chatbot.",
+  "skills": [
+    "Python",
+    "Flask",
+    "React",
+    "JavaScript",
+    "AWS (Lambda, S3)",
+    "MySQL",
+    "Docker",
+    "Git/GitHub",
+    "CI/CD",
+    "NLP/ML"
+  ]
+}
